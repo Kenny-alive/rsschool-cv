@@ -23,7 +23,8 @@ Accomplished spare saler seeking to leverage skills in sales management for he
 
 ```javascript
 const kennyAlive = setInterval(() => {
-  console.log('Oh my God, they killed Kenny!'), console.log('You bastards!')
+  console.log('Oh my God, they killed Kenny!')
+  console.log('You bastards!')
 }, 4000)
 ```
 
