@@ -30,9 +30,18 @@ Accomplished spare saler seeking to leverage skills in sales management for he
 
 ## Code example
 
-```
+```javascript
 const kennyAlive = setInterval(() => {
-  console.log('Oh my God, they killed Kenny!'),
-  console.log('You bastards!')
+  console.log('Oh my God, they killed Kenny!'), console.log('You bastards!')
 }, 4000)
 ```
+
+## Education
+
+- higher education in the humanities
+- [RS School](https://rs.school) (in progress...)
+
+## Languages
+
+1. Russian
+2. English (B1)
