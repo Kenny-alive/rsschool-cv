@@ -1,3 +1,93 @@
+body {
+  display: flex;
+  max-width: 1130px;
+  margin: auto;
+  justify-content: center;
+}
+
+.kenny {
+  display: block;
+  border-radius: 50%;
+  /* margin: 35px 0 0 35px; */
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 300px;
+}
+
+main {
+  padding-left: 20px;
+  min-width: 565px;
+  background-color: #080808;
+  color: #696969
+}
+
+header {
+  margin-left: 20px;
+  min-width: 565px;
+  background-color: #565558;
+  color: white;
+
+}
+
 h1 {
+  color: #3DFFDB;
+  font-size: 65px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  margin-left: 55px;
+  font-size: 19px;
+}
+
+.green-color {
+  color: #3DFFDB
+}
+
+.blue-color {
+  color: #0094FF
+}
+
+.white-color {
+  color: #ffffff;
+}
+
+.html-head {
+  font-size: 60px;
+}
+
+.margin-left {
+  margin-left: 45px;
   font-size: 20px;
+}
+
+ul {
+  margin-left: 5px;
+  line-height: 1.5em;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header figcaption {
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+header li {
+  font-size: 20px;
+  line-height: 1.5em;
 }
