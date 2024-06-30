@@ -1,29 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  display: flex;
+
   max-width: 1130px;
   margin: auto;
   justify-content: center;
 }
 
-.kenny {
-  display: block;
-  border-radius: 50%;
-  /* margin: 35px 0 0 35px; */
-  margin: 0 auto;
-  margin-top: 60px;
-  width: 300px;
-}
-
 main {
-  padding-left: 20px;
-  min-width: 565px;
+  padding-left: 50px;
+  min-width: 600px;
   background-color: #080808;
   color: #696969
 }
 
 header {
-  margin-left: 20px;
-  min-width: 565px;
+  min-width: 530px;
   background-color: #565558;
   color: white;
 
@@ -31,16 +25,20 @@ header {
 
 h1 {
   color: #3DFFDB;
-  font-size: 65px;
+  font-size: 75px;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 36px;
+  margin-top: -20px;
+  margin-left: -25px;
 }
 
 h3 {
   font-size: 30px;
+  margin-left: 20px;
 }
 
 p {
@@ -48,8 +46,96 @@ p {
   font-size: 19px;
 }
 
+
+ul {
+  margin-left: 5px;
+  line-height: 1.5em;
+}
+
+li {
+  list-style-type: none;
+}
+
+pre {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header figcaption {
+  margin-top: 30px;
+  font-size: 25px;
+  color: #0094FF
+}
+
+header li {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.rsschool-logo {
+  height: 100px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.rsschool-logo,
+.kenny {
+  animation-name: wave;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+@keyframes wave {
+  0% {
+    transform: translate3d(0, -2px, 0)
+  }
+
+  to {
+    transform: translate3d(0, 2px, 0)
+  }
+}
+
+.year {
+  font-size: 35px;
+  text-align: center;
+  margin-left: 30px;
+  display: block;
+  margin-top: 25px;
+}
+
+.rsschool-wrapper {
+  max-width: 1130px;
+  text-align: center;
+  display: block;
+  margin-top: -60px;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.kenny {
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 300px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
 .green-color {
   color: #3DFFDB
+}
+
+.underline:hover {
+  text-decoration: underline;
 }
 
 .blue-color {
@@ -62,32 +148,23 @@ p {
 
 .html-head {
   font-size: 60px;
+  padding-top: 20px;
+  margin-left: -30px;
+}
+
+.html-low-head {
+  margin-top: -50px;
+}
+
+
+.html-body {
+  margin-left: 5px;
+  font-size: 50px;
+  margin-top: -15px;
 }
 
 .margin-left {
-  margin-left: 45px;
+  margin-left: 15px;
   font-size: 20px;
-}
-
-ul {
-  margin-left: 5px;
-  line-height: 1.5em;
-}
-
-li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-header figcaption {
-  margin-top: 30px;
-  font-size: 25px;
-}
-
-header li {
-  font-size: 20px;
-  line-height: 1.5em;
+  margin-top: -20px;
 }
