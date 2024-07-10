@@ -111,10 +111,15 @@ header li {
 }
 
 .rsschool-wrapper {
-  max-width: 1130px;
+  /* max-width: 1130px; */
   text-align: center;
-  display: block;
+  display: inline-block;
+
   margin-top: -60px;
+}
+
+.github {
+  margin-left: 20px;
 }
 
 
@@ -130,6 +135,10 @@ header li {
   margin-top: 50px;
   width: 300px;
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+footer {
+  display: none;
 }
 
 .green-color {
@@ -169,4 +178,9 @@ header li {
   margin-left: 15px;
   font-size: 20px;
   margin-top: -20px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
 }
