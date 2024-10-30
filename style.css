@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  max-width: 1130px;
+  margin: auto;
+  justify-content: center;
+}
+
+main {
+  padding-left: 50px;
+  min-width: 600px;
+  background: rgb(86, 85, 88);
+  background: linear-gradient(90deg, rgba(86, 85, 88, 1) 0%, rgba(8, 8, 8, 1) 93%);
+  color: #696969
+}
+
+header {
+  min-width: 530px;
+  background: rgb(8, 8, 8);
+  background: linear-gradient(90deg, rgba(8, 8, 8, 1) 0%, rgba(86, 85, 88, 1) 93%);
+  color: white;
+}
+
+
+h1 {
+  color: #3DFFDB;
+  font-size: 75px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-top: -20px;
+  margin-left: -25px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 55px;
+  font-size: 19px;
+}
+
+
+ul {
+  margin-left: 5px;
+  line-height: 1.5em;
+}
+
+li {
+  list-style-type: none;
+}
+
+pre {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header figcaption {
+  margin-top: 30px;
+  font-size: 25px;
+  color: #0094FF
+}
+
+header li {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.rsschool-logo {
+  height: 100px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.rsschool-logo,
+.kenny {
+  animation-name: wave;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+@keyframes wave {
+  0% {
+    transform: translate3d(0, -2px, 0)
+  }
+
+  to {
+    transform: translate3d(0, 2px, 0)
+  }
+}
+
+.year {
+  font-size: 35px;
+  text-align: center;
+  margin-left: 30px;
+  display: block;
+  margin-top: 25px;
+}
+
+.rsschool-wrapper {
+  /* max-width: 1130px; */
+  text-align: center;
+  display: inline-block;
+
+  margin-top: -60px;
+}
+
+.github {
+  margin-left: 20px;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.kenny {
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 300px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+footer {
+  display: none;
+}
+
+.green-color {
+  color: #3DFFDB
+}
+
+.underline:hover {
+  text-decoration: underline;
+}
+
+.blue-color {
+  color: #0094FF
+}
+
+.white-color {
+  color: #ffffff;
+}
+
+.html-head {
+  font-size: 60px;
+  padding-top: 20px;
+  margin-left: -30px;
+}
+
+.html-low-head {
+  margin-top: -50px;
+}
+
+
+.html-body {
+  margin-left: 5px;
+  font-size: 50px;
+  margin-top: -15px;
+}
+
+.margin-left {
+  margin-left: 15px;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+}
